@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#f4f4f4"
+    android:orientation="vertical"
+    android:paddingBottom="8dip"
+    android:paddingLeft="5dip"
+    android:paddingRight="5dip"
+    android:paddingTop="8dip" >
+
+    <TextView
+        android:id="@+id/_ID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="ID" />
+
+    <TextView
+        android:id="@+id/QUANTIDADES"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/descricaoPastoView"
+        android:layout_alignBottom="@+id/descricaoPastoView"
+        android:layout_marginLeft="17dp"
+        android:layout_toRightOf="@+id/descricaoPastoView"
+        android:text="QTDES" />
+
+    <TextView
+        android:id="@+id/descricaoPastoView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/_ID"
+        android:layout_alignBottom="@+id/_ID"
+        android:layout_marginLeft="15dp"
+        android:layout_toRightOf="@+id/_ID"
+        android:text="PASTO" />
+
+    <TextView
+        android:id="@+id/DT_INSERT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/QUANTIDADES"
+        android:layout_alignBottom="@+id/QUANTIDADES"
+        android:layout_alignParentRight="true"
+        android:text="2015-01-12" />
+
+    <TextView
+        android:id="@+id/DESCRICAO_ANIMAL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/DT_INSERT"
+        android:layout_alignBottom="@+id/DT_INSERT"
+        android:layout_marginRight="50dp"
+        android:layout_toLeftOf="@+id/DT_INSERT"
+        android:text="BEZERRO" />
+
+</RelativeLayout>
+

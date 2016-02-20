@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.sitiocamargo"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="16" />
+    
+    
+    <supports-screens android:resizeable="true"
+                  android:smallScreens="true" 
+                  android:normalScreens="true"
+                  android:largeScreens="true" 
+                  android:xlargeScreens="true"
+                  android:anyDensity="true"
+                  android:requiresSmallestWidthDp="320" 
+                  android:compatibleWidthLimitDp="320" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/home1"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="br.com.sitio.camargo.activity.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="br.com.sitio.camargo.activity.CadastroActivity"
+            android:label="@string/app_name" >
+        </activity>
+         <activity
+            android:name="br.com.sitio.camargo.activity.ListaCadastroActivity"
+            android:label="@string/app_name" >
+         </activity>
+          <activity
+            android:name="br.com.sitio.camargo.activity.CadastroPessoaActivity"
+            android:label="@string/app_name" >
+         </activity>
+         <activity
+            android:name="br.com.sitio.camargo.activity.ListaCadastroPessoaActivity"
+            android:label="@string/app_name" >
+         </activity>
+          <activity
+            android:name="br.com.sitio.camargo.activity.CadastroLancamentoDespesaActivity"
+            android:label="@string/app_name" >
+         </activity>
+         <activity
+            android:name="br.com.sitio.camargo.activity.ListaConsultaLancamentoDespesaActivity"
+            android:label="@string/app_name" >
+         </activity>
+    </application>
+
+</manifest>

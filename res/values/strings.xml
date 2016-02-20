@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SitioCamargo</string>
+    <string name="titulo">Pasto :</string>
+    <string name="cadastro">Cadastro Gado Por Pasto</string>
+    <string name="vendas">Venda de Gado :</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="action_settings">action_settings</string>
+    <string name="action_settings1">action_settings</string>
+    <string name="sitio_camargo">SÍTIO CAMARGO</string>
+    <string name="listasCadastros">Consulta Pasto / Periodo</string>
+    <string name="salvar">Salvar</string>
+    <string name="registro_salvo">Registro Salvo</string>
+    <string name="erro_salvar">Erro ao salva Registro</string>
+    <string name="confirmarInclusao">Confirma Inclusao Cadastro</string>
+    <string name="sim">Sim</string>
+    <string name="nao">Nao</string>
+	<string name="cadastroPessoaFornecedor">Cadastro Pessoa / Jurídica</string>   
+	<string name="consultaPessoaFornecedor">Consulta Pessoa / Jurídica</string> 
+	<string name="consultalancamentoDespesa">Consulta Lançamento Despesas</string> 
+	
+	
+	<string name="lancamentoDespesa">Lançamento Despesas</string> 
+	
+	<string-array name="pessoa_array">
+	    <item>Selecione</item>
+        <item>Pessoa Fisica</item>
+        <item>Pessoa Juridica</item>
+    </string-array>
+    
+	<string-array name="lancamento_array">
+	    <item>Selecione</item>
+	    <item name="1">Últimos 15 dias</item>
+        <item name="2">Últimos 30 dias</item>
+        <item name="3">Últimos 60 dias</item>
+    	<item name="4">Últimos 90 dias</item>
+    	<item name="5">Últimos 180 dias</item>
+    </string-array>
+    
+    <!-- Formulario Cadastro Pessoa -->
+     <string name="tipoPessoa_required">Tipo Pessoa Obrigatorio!</string>
+     <string name="cpf_required">Campo Cpf obrigatório!</string>
+ 	 <string name="cnpj_required">Campo Cnpj obrigatório!</string>
+ 	 <string name="campoNome_required">Campo Nome obrigatório!</string>
+ 	 <string name="campoEndereco_required">Campo Endereco obrigatório!</string>
+ 	 <string name="telefone_required">Campo Telefone obrigatório!</string>
+ 	 
+ 	 
+ 	 
+   
+</resources>

@@ -1,0 +1,63 @@
+
+ <menu xmlns:android="http://schemas.android.com/apk/res/android" >
+ 
+ <item
+        android:id="@+id/empty"
+        android:title=""
+        android:orderInCategory="101"
+        android:showAsAction="always"
+        android:icon="@drawable/ic_action_overflow">
+
+        <menu>        
+
+            <item
+                android:id="@+id/action_cadastro"
+                android:orderInCategory="96"
+                android:showAsAction="never"
+                android:title="@string/cadastro"
+                android:icon="@drawable/menu_preferencias"/>
+
+            <item
+                android:id="@+id/action_listaCadastros"
+                android:orderInCategory="97"
+                android:showAsAction="never"
+                android:title="@string/listasCadastros"
+                android:icon="@drawable/lista"/>
+
+            <item
+                android:id="@+id/action_cadastroPessoaFornecedor"
+                android:orderInCategory="98"
+                android:showAsAction="never"
+                android:title="@string/cadastroPessoaFornecedor"
+                android:icon="@drawable/ic_action_overflow"/>
+
+            <item
+                android:id="@+id/action_consultaPessoaFornecedor"
+                android:orderInCategory="98"
+                android:showAsAction="never"
+                android:title="@string/consultaPessoaFornecedor"
+                android:icon="@drawable/ic_action_overflow"/>
+            
+              <item
+                android:id="@+id/action_lancamentoDespesas"
+                android:orderInCategory="98"
+                android:showAsAction="never"
+                android:title="@string/lancamentoDespesa"
+                android:icon="@drawable/ic_action_overflow"/>
+              
+              
+               <item
+                android:id="@+id/action_consultaLancamentoDespesas"
+                android:orderInCategory="98"
+                android:showAsAction="never"
+                android:title="@string/consultalancamentoDespesa"
+                android:icon="@drawable/ic_action_overflow"/>
+            
+            
+            
+            </menu>    
+        
+        </item>
+</menu>
+
+
